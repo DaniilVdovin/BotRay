@@ -1,6 +1,6 @@
 from subprocess import *
 from goto import with_goto
-
+from time import gmtime, strftime   
 @with_goto
 def hi():
     print('Привет друг.\nКак дела?')
@@ -17,3 +17,14 @@ def Poka():
    answer = input()
    if answer ==')': 
       print('<3')
+def Sashaa():
+   print('Где ?')
+   answer = input()
+   if answer =='Тут': 
+      print('не вижу')
+def Garik():
+   print('Оооооу')
+   answer = input()
+   if answer =='Кто это': 
+      print('Чуувак')
+def Vremja():

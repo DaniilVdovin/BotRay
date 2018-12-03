@@ -18,3 +18,12 @@ if __name__ == '__main__':
    elif ans == 'Пока':
         Poka()
         call(['python','Main.py'])
+   elif ans == 'Сашаа':
+        Sashaa()
+        call(['python','Main.py'])
+   elif ans == 'Гарик':
+        Garik()
+        call(['python','Main.py'])
+   elif ans == 'Время':
+        Vremja()
+        call(['python','Main.py'])
