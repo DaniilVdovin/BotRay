@@ -11,6 +11,8 @@ if __name__ == '__main__':
    ans = input()
    if ans == 'Привет':
         hi()
+   elif ans == "Info" or ans == "Healp" or ans == "Помашь":
+       Info()
    elif ans == 'Д К':
        print('Укажи команду')
        ans = input()
@@ -18,12 +20,7 @@ if __name__ == '__main__':
    elif ans == 'Пока':
         Poka()
         call(['python','Main.py'])
-   elif ans == 'Сашаа':
-        Sashaa()
-        call(['python','Main.py'])
-   elif ans == 'Гарик':
-        Garik()
-        call(['python','Main.py'])
-   elif ans == 'Время':
-        Vremja()
+   
+   elif ans == 'Расскажи о себе':
+        Rasskazhiosebe()
         call(['python','Main.py'])

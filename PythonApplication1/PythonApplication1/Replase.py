@@ -50,10 +50,13 @@ def addDef(name,nameR):
     Temp = File.read()
     File.close()
     File = open('Main_temp.py','tw',encoding='utf-8') 
+    HEALP = open('HEALP.txt','a',encoding='utf-8') 
+    HEALP.write('\n'+nameR+' - '+'Описание')
     CrateLogic(name)
     File.write(Temp + '\n   elif ans == \''+nameR+'\':\n'+ 
                '        ' + name+'()\n        call([\'python\',\'Main.py\'])')
     File.close()
+    HEALP.close()
     remu()
 
     

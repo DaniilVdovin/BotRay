@@ -17,14 +17,12 @@ def Poka():
    answer = input()
    if answer ==')': 
       print('<3')
-def Sashaa():
-   print('Где ?')
-   answer = input()
-   if answer =='Тут': 
-      print('не вижу')
-def Garik():
-   print('Оооооу')
-   answer = input()
-   if answer =='Кто это': 
-      print('Чуувак')
-def Vremja():
+def Info():
+   File = open('HEALP.txt','r')
+   print('''\
+BotRay - псевдо интелект способный вести осмысленные диалог с пользователем
+Список команд: 
+''' + File.read())
+   File.close()
+def Rasskazhiosebe():
+   print('Меня зовут Рей, меня можно дополнять разными фенкциями как через код так и через терминал. Если знаешь Python пиши в кодЕсли иначе вызывай команду "Д К" и начинай создавать !')
